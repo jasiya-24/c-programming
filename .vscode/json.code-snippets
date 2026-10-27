@@ -1,0 +1,25 @@
+
+	{
+    "Noors Academy C Boilerplate": {
+        "prefix": "cmain",
+        "body": [
+            "/*",
+            " * Student Name : ${1:Your Name}",
+            " * Batch        : C + C++ Batch 19",
+            " * Program Title: ${2:Program Title}",
+            " * Date         : ${3:DD-MM-YYYY}",
+            " * Description  : ${4:Brief description of the program}",
+            " */",
+            "",
+            "#include <stdio.h>",
+            "",
+            "int main(void)",
+            "{",
+            "    $0",
+            "",
+            "    return 0;",
+            "}"
+        ],
+        "description": "Noors Academy C program boilerplate"
+    }
+}

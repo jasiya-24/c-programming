@@ -1,0 +1,189 @@
+C Intro
+C Programming Strucgture
+Input/Oututfunctions
+Operators
+Operators Presidence
+Expression: operators & operands
+
+10 + 2 * 3 / 2
+--------------------
+High
+()
+Unary ! ++ -- sizeof
+* /  %
++ -
+< <= > >=
+== !=
+&&
+||
+?:
+=
+Low
+
+Arithmatic + - * / %
+
+Escape Sequences
+----------------
+\n - New line
+\t - Tab space 
+\b - Back space
+\r - Carriage return
+\\
+\"
+\'                     
+
+DOS Commands
+-----------
+'cd mkdir rmdir cd.. dir
+
+C Literals
+-----------
+Numerical (interger & floating point )
+String "Jasiya"
+char 'A' 'Z' '9'
+int no = 10;-10 9
+float mark  = 10.89;
+bool true false
+
+ASCII - a - 97 A-65
+%%
+
+Logical Operators
+-----------------
+&& - AND
+|| - OR
+! - NOT
+
+1 && 0
+!0
+
+Unary -  Single operand (!, sizeo , ++ , --)
+Binary - ( +, - , < , >, &&  )
+Ternary - ?:  (condition)?true:false
+
+
+Boolean Algebra
+--------------------
+&& (AND)
+In1 In2 Output
+0   0   0
+1   0   0
+0   1   0
+1   1   1
+
+|| (OR)
+In1 In2 Output
+0   0   0
+1   0   1
+0   1   1
+1   1   1
+
+
+! (NOT)
+In Output
+0   1
+1   0
+
+Bitwise operators
+-----------------
+&
+|
+^
+<<
+>>
+
+Futher Data Type / Data Modifiers
+---------------------------------
+int     4 bytes -2,147,483,648 to 2,147,483,647 %d
+float   4 bytes 6 or 7 digits precision               %f
+double (long float)  8 bytes 15 or 16 digits precistion %lf
+char    1 bytes 0 to 255                            %c
+bool    true or false #include <stdbool.h>      %d
+
+char [] charectar array (String)                %s
+
+
+short   
+short int -32768 to 32767            %hd
+unsigned short 0 - 65535             %hu
+long
+singed long int     (long)                 %ld
+unsigned long int  (unsigned long)         %lu
+signed
+unsigned
+long long (long long int) -9,345,678,901,234,567,890 to 93737388338383   %lld
+unsigned long long 0 - 8,,,,,       %llu
+
+Relational Operators
+--------------------
+== 
+>
+<
+>=
+<=
+!=
+
+1. SEQUENTIAL STATEMENTS
+2. DECISTION MAKING / CONDITIONAL STATEMENTS
+3. LOOPING / ITERATION STATEMENTS
+
+
+CONDITIONAL STATEMENTS
+----------------------
+A conditional state,ment allows a program to make a decision.
+
+if it is raining -> take an umbrella
+if make is 40 or above -> pass
+if note_page >= 160 -> buy new notebook
+if age is 18 or above -> eligible for vote
+if password is correct -> allow login
+
+IF STATEMENTS
+-----------------
+1. simple if
+2. if..else
+3. else if ladder
+4. nested if
+
+SWITCH STATEMENTS
+------------------
+switch .... case - A switch statement is used when one experession can have several fixed possible values.
+Alternative to else if ladder.
+
+switch (expression)
+{
+    case value1:
+        //STATEMENTS
+        break;
+    case value2:
+        //STATEMENTS
+        break;
+        ...
+        ...
+    default:
+        //default statement
+}
+1. switch checks one expression
+2. case gives possible values
+3. break stops exeuction from continuing into the next case
+4. default runs when no case matches
+
+LOOPING 
+--------
+Repeates someting util a condition is met.
+A loop is used when we want to execute the same block of code multiple times.
+
+1. FOR 2. WHILE 3. DO...WHILE
+
+1. ENTRY CONTROL LOOPING
+    FOR WHILE   DO...WHILE
+2. EXIT CONTROL LOOPING
+    DO...WHILE
+
+    NO OF 
+
+
+
+
+
+
