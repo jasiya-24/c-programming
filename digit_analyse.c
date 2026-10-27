@@ -25,3 +25,9 @@ int main(void)
         count++;
         num = num / 10;
     }
+
+    printf("sum of digit is: %d\n", sum);
+    printf("number of digit is: %d\n", count);
+
+    return 0;
+}
